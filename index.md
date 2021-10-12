@@ -7,7 +7,7 @@ This is just a index page for some repository
 _high traffic nsca server with worker and threadpool support for slow encryption methods. drop-in replacement for nsca._
 
 ### [Secure SSH-agent UI](https://github.com/macskas/SSHAgentSecureProxy)
-_Secure SSH agent UI for linux. Just a nodejs electron app. Asks permission for key signing, masks your key names on listing. Shortcuts to approve request. Temporary/permanent bypass, blocking. Can block request when you are idle. Notification rate limiting, etc. A more flexible replacement for yubikey/smartcards_
+_Secure SSH agent UI for linux/macos. Just a nodejs electron app. Asks permission for key signing, masks your key names on listing. Shortcuts to approve request. Temporary/permanent bypass, blocking. Can block request when you are idle. Notification rate limiting, etc. A more flexible replacement for yubikey/smartcards_
 
 ### [nagios-plugins](https://github.com/macskas/nagios-plugins)
 - ZFS `WARNING storage-02(ONLINE 11.1T/87T),storage-03(RESILVER 18.53%,223M/s,82h51m),storage-81(ONLINE 1.00T/87T)`
