@@ -9,6 +9,9 @@ _high traffic nsca server with worker and threadpool support for slow encryption
 ### [Secure SSH-agent UI](https://github.com/macskas/SSHAgentSecureProxy)
 _Secure SSH agent UI for linux/macos. Just a nodejs electron app. Asks permission for key signing, masks your key names on listing. Shortcuts to approve request. Temporary/permanent bypass, blocking. Can block request when you are idle. Notification rate limiting, etc. A more flexible replacement for yubikey/smartcards_
 
+### [libnss-hosts2](https://github.com/macskas/libnss-hosts2)
+_Alternate, secondary hosts file lookup. Can be helpful in docker where /etc/hosts cannot be renamed(safely modified). Secondary hosts file's path can be configured. After install it should be added to /etc/nsswitch.conf_
+
 ### [nagios-plugins](https://github.com/macskas/nagios-plugins)
 - ZFS `WARNING storage-02(ONLINE 11.1T/87T),storage-03(RESILVER 18.53%,223M/s,82h51m),storage-81(ONLINE 1.00T/87T)`
 - Bacula status `pass_Bacula CRITICAL: Success: 75, Failed: 3 (Job1AutoMysqlBackupDaily, Job2AutoMysqlBackupDaily, Job3BackupDaily)`
@@ -35,13 +38,13 @@ bf2b4508482c99becadb1c789399640c:0e8d68b9eff4c266cd562014dbe67d1a6591219212c8149
 ```
 
 ### [autobarebackup](https://github.com/macskas/autobarebackup)
-_just a simple incremental backup script for linux using tar pigz, etc - useful for bacula _
+_just a simple incremental backup script for linux using tar pigz, etc - useful for bacula_
 
 ### [autoinnodbbackup](https://github.com/macskas/autoinnodbbackup)
-_automysqlbackup innobackupex alternative. for easy bacula backup _
+_automysqlbackup innobackupex alternative. for easy bacula backup_
 
 ### [docker-php-runner](https://github.com/macskas/DockerRunnerBasic)
-_Just a basic docker exec replacement for multi php and multiuser environment(like shared dev servers). _
+_Just a basic docker exec replacement for multi php and multiuser environment(like shared dev servers)._
 
 ### [NGINX openresty dynamic SSL](https://github.com/macskas/nginx-openresty-dynamic-ssl)
 _nginx openresty dynamic ssl lua script + cache_
