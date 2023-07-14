@@ -17,6 +17,9 @@ _Alternate, secondary hosts file lookup. Can be helpful in docker where /etc/hos
 - Bacula status `pass_Bacula CRITICAL: Success: 75, Failed: 3 (Job1AutoMysqlBackupDaily, Job2AutoMysqlBackupDaily, Job3BackupDaily)`
 - Open file handles `pass_ProcFD CRITICAL: (W:sshd;3148;11/1024), (C:syslog-ng;7486;2004/65536), (W:udevd;1529;11/1024), (W:lldpd;7063;14/1024), (W:rpcbind;6170;12/1024), (C:rpc.mountd;16466;21/1024)`
 
+### [tcpdump-u32-helper](https://macskas.github.io/tcpdump-u32-helper/)
+_You can generate iptables u32 match from tcpdump's output. Just a helper script in html+javascript_
+
 ### [nagios2json](https://github.com/macskas/nagios2json)
 _Convert nagios status.dat to JSON, JSONP, TEXT format. Supports running as CGI or even CLI_
 
